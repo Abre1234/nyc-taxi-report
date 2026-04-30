@@ -1,0 +1,10 @@
+# GitHub Pages configuration
+# Forces index.html to be served as the site root instead of README.md
+
+include:
+  - index.html
+
+exclude:
+  - README.md
+  - scripts/
+  - dataset/
